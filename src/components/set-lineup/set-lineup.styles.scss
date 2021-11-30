@@ -1,0 +1,135 @@
+.set-lineup{
+    display: flex;
+    flex-direction: row;
+
+    width: 80%;
+    margin-left: 10%;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px grey;
+    margin-bottom: 100px;
+    background-color: white;
+padding:20px;
+
+}
+
+
+
+.choose-team{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-bottom: 10px;
+    width: 80%;
+
+ 
+}
+.chose-team-and-rosters{
+width: 50%;
+}
+.player-options-container{
+    width:50%
+}
+.my-team{
+    border-radius: 2.5px;
+    padding: 14px;
+    border: 1px #00aacc solid;
+    color: #00aacc;
+    width: 30%;
+    height: 45px;
+    margin-right: 2px;
+    &.active{
+        color: white;
+        background-color:#00aacc;
+        border: 2px gold solid;
+    }
+}
+.opponent{
+    // border-top-right-radius: 25px;
+    // border-bottom-right-radius: 25px;
+    border-radius: 2.5px;
+    padding: 14px;
+    border: 1px #00aacc solid;
+    color: #00aacc;
+    height: 45px;
+
+    width: 30%;
+    margin-left: 2px;
+    &.active{
+        color: white;
+        background-color:#00aacc;
+        border: 2px gold solid;
+
+    }
+
+}
+.lineup-choice{
+    cursor: pointer;
+}
+.roster{
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    float: right;
+    padding: 5px 10px 5px 10px;
+    margin: 0;
+    background: #f8f8f8;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 3px;
+    background-clip: padding-box;
+    height: 32px;
+}
+.card-list{
+    height: 400px;
+    overflow-y: scroll;
+    padding: 10px 0;
+
+}
+.position-options{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4f4f4;
+    padding: 2px 20px 0 20px;
+    font-size: 14px;
+    height: 32px;
+    width: 75%;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 13px;
+    line-height: 32px;
+    font-family: arial, helvetica, sans-serif;
+}
+.position-option{
+cursor: pointer;
+color: #777777;
+&:hover{
+    color: blue;
+}
+}
+.position-label{
+    font-size: 14px;
+    font-style:normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight:bold;
+    font-stretch:normal;
+    font-size: 13px;
+    line-height: 32px;
+    font-family: arial, helvetica, sans-serif;
+}
+.choose-player{
+    display: flex;
+}
+.player-options-top{
+    display: flex;
+}

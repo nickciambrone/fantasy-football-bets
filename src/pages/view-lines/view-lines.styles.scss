@@ -1,0 +1,104 @@
+.view-lines{
+   background-color: #d5d5d5;
+   height:800px;
+}
+.view-lines-content{
+    background-color: white;
+    width:80%;
+    margin-left:10%;
+    padding:10px;
+    display:flex;
+}
+ul{
+    list-style-type: none;
+}
+
+.dark{
+    background-color: #eeecec;
+}
+.team{
+    border-collapse: collapse;
+    border-spacing: 0px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    border-color: grey;
+        text-align: left;
+        width:100%;
+      
+    td{
+        padding-left:5px;
+    }
+
+    
+}
+.positions-for-teams-container{
+   background-color:  #f9f9fb;
+   width:8%
+}
+.positions-for-teams{
+    width:100%;
+
+}
+
+
+.view-lines-user-team{
+    width:46%
+}
+.view-lines-opponent-team{
+    width:46%
+}
+.left{
+   width: 50%;
+   a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .previous:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  
+  .next {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+}
+
+.right{
+    width:50%
+}
+.player-projected-score{
+float:right;
+}
+
+.edit-lineup-button-container{
+    text-align: left;
+}
+.click-lines-button{
+    background-color: #242424;
+    height:30px;
+    width:33%;
+    color:white;
+    text-align: center;
+    padding:7px;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.header-view-lines{
+    border-bottom: #242424 solid 1px;
+    margin-bottom: 3px;
+}
